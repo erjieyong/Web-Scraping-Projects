@@ -26,3 +26,9 @@ This script will update google photos of the correct date that the image or vide
 - Attempt was made to use selenium to automatically open a browser instance, navigate to google photos and log in. However, this was not successful as google is strict on preventing user from loggin in using automated software such as selenium.
     - Note that this can be overcome using `undetected_chromedriver` package Source: https://github.com/ultrafunkamsterdam/undetected-chromedriver
     - As such, we arrived at the following script which require users to create a new instance of microsoft edge browser and then attaching selenium to the browswer in order to control it automatically. We are able to overcome the google authentication problem this way
+    
+## Result
+- Before: Date was 11 Aug 2022
+<img src="original_date.png" width="350">
+- After: Date is 1 Jan 2021
+<img src="updated_date.png" width="350">
